@@ -34,5 +34,6 @@ User.findById('59de7700bc57911170d84c58').then((user) =>{
   if(!user){
     return console.log('Id not found');
   }
+  
   console.log('user by id: ', user);
 }, (e) => console.log(e));
